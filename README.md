@@ -1,17 +1,17 @@
-# GladLive.ProxyLoadBalancer
+# GladLive.AuthService
 
 GladLive is network session service comparable to Xboxlive or Stream. 
 
 The GladLive.ProxyLoadBalancer is the entry point to the GladLive distributed network and preforms this role by providing:
-  - Acting as a proxy for authentication requests
-  - Tracking preformance of authentication subservers and scaling
-  - Providing authenticated clients session tokens to connect into the GladLive network
+  - Services Authentication requests for the GladLive distributed network
+  - Vertically and horizontally scalable
+  - RSA key for authentication distributed with clients
 
 ## GladLive Services
 
 GladLive.ProxyLoadBalancer: https://github.com/GladLive/GladLive.ProxyLoadBalancer
 
-GladLive.AuthenticationService: TBA
+GladLive.AuthenticationService: https://github.com/GladLive/GladLive.AuthService
 
 ## Setup
 
@@ -28,8 +28,8 @@ Available on a Nuget Feed: https://www.myget.org/F/hellokitty/api/v2 (N/A)
 #### Linux/Mono - Unit Tests
 ||Debug x86|Debug x64|Release x86|Release x64|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|**master**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.ProxyLoadBalancer.svg?branch=master)](https://travis-ci.org/HelloKitty/GladLive/GladLive.ProxyLoadBalancer) |
-|**dev**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.ProxyLoadBalancer.svg?branch=dev)](https://travis-ci.org/GladLive/GladLive.ProxyLoadBalancer)|
+|**master**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.AuthService.svg?branch=master)](https://travis-ci.org/HelloKitty/GladLive/GladLive.AuthService) |
+|**dev**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.AuthService.svg?branch=dev)](https://travis-ci.org/GladLive/GladLive.AuthService)|
 
 #### Windows - Unit Tests
 
