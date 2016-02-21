@@ -1,1 +1,1 @@
-xbuild ./GladLive.ProxyLoadBalancer.sln /p:DebugSymbols=False
+xbuild ./GladLive.AuthService.sln /p:DebugSymbols=False
